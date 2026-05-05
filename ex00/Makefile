@@ -19,7 +19,7 @@ $(NAME): $(OBJ)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJ)x
 
 fclean: clean
 	$(RM) $(NAME)
